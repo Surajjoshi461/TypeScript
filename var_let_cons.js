@@ -9,4 +9,4 @@ for(let i=0; i<5; i++){
 }
 console.log("c "+c);
 
-console.log("d "+d);
+console.log("d "+d);//it gives error
