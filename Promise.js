@@ -11,7 +11,7 @@ function addProject(newProject){
         setTimeout(function(){
             Project.push(newProject)
             console.log("Project has been added..!!");
-            let error = true
+            let error = false
             if(!error){
                 resolve()
             }else{
