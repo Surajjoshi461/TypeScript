@@ -1,32 +1,30 @@
 
 
-const Technology = [
-    {Username : "Suraj", Tech : "JavaScript"},
-    {Username : "suraj", Tech : "NodeJs"}
+const Project = [
+    {Username : "Suraj", Proj : "Number Cube"},
+    {Username : "suraj", Proj : "Online Content Downloader"}
 ]
 
-function addTech(newTech,callback){
+function addProject(newProject,callback){
     setTimeout(()=>{
-        Technology.push(newTech);
-        console.log("Technology has been added");
+        Project.push(newProject);
+        console.log("Project has been added");
         callback()
     },8000);
 }
 
-function getTech(){
+function getProject(){
     setTimeout(()=>{
         let str=""
-        Technology.forEach((Technology) => {
-            str +=`<li> ${Technology.Tech}</li>`
+        Project.forEach((Project) => {
+            str +=`<li> ${Project.Proj}</li>`
         });
         document.getElementById("student").innerHTML = str; 
-        console.log("Technology have been fatche");
+        console.log("Project have been fatche");
     },1000);
 }
 
-let newTech = {Username : "suraj", Tech : "Python"}
+let newProject = {Username : "suraj", Proj : "Sochenge "}
 
-addTech(newTech,getTech)
+addProject(newProject,getProject)
 
-
- 

@@ -17,4 +17,15 @@ let a = myFunction();
 console.log("After calling myFunction");
 a.then(data => console.log(data));
 
-console.log("Last kine of this js file");
+console.log("Last line of this js file");
+
+
+
+// async function myDisplay() {
+//     let myPromise = new Promise(function(resolve) {
+//       setTimeout(function() {resolve("I love You !!");}, 3000);
+//     });
+//     document.getElementById("demo").innerHTML = await myPromise;
+//   }
+  
+//   myDisplay();
