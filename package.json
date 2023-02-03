@@ -4,7 +4,8 @@
   "description": "JavaScript Program's ",
   "main": "Async_Await.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "temp": "eslint --init"
   },
   "repository": {
     "type": "git",
@@ -27,5 +28,11 @@
     "mysql": "^2.18.1",
     "node-fetch": "^3.3.0",
     "simple-node-logger": "^21.8.12"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.49.0",
+    "@typescript-eslint/parser": "^5.49.0",
+    "eslint": "^8.33.0",
+    "typescript": "^4.9.4"
   }
 }
