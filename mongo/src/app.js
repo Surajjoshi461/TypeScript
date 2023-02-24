@@ -11,7 +11,7 @@ const studentListSchema = new mongoose.Schema({
         type : String,
         require : true
     },
-    city : String,
+    city : String, 
     enroll : String,
     contact : Number,
     date :{

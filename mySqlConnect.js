@@ -14,4 +14,4 @@ con.connect((err)=>{
 
 con.query('select * from users',(err,result)=>{
     console.warn(result);
-})
+})   

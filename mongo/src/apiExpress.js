@@ -15,12 +15,12 @@ const app = express()
 //     let result = await data.insertOne(req.body)   
 //     resp.send(result)
 // })
-
+ 
 app .put('/', async(req,resp)=>{
     let data = await dnConnect()
     let result = await data.UpdateOne(
         {name:"suraj"},
-        {$set:{city:"The suraj"}}
+        {$set:{name:"The suraj"}}
     )
     resp.send({result:"Update"})
     
